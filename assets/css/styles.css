@@ -1,10 +1,10 @@
 /* Geral */
-
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	max-width: 1200px;
+	overflow-x: hidden
 }
+
 
 a,
 a:visited {
@@ -15,10 +15,10 @@ a:visited {
 header {
 	border-bottom: 1px solid #ebebeb;
 }
+
 /* Search Bar Wrap Container */
 #input-box {
 	padding-top: 27px;
-	/* padding-bottom: 9px; */
 }
 
 /* Google Logo */
@@ -84,6 +84,7 @@ header {
 	margin-left: 161px;
 	font-size: 16px;
 }
+
 /* Icons */
 #cross-icon,
 #vertical-bar,
@@ -94,9 +95,11 @@ header {
 	top: 14px;
 	font-size: 18px;
 }
+
 #cross-icon {
 	right: 150px;
 }
+
 #vertical-bar {
 	width: 0.01px;
 	height: 25px;
@@ -105,12 +108,15 @@ header {
 	right: 135px;
 	top: 9px;
 }
+
 #keyboard-icon {
 	right: 100px;
 }
+
 #mic-icon {
 	right: 60px;
 }
+
 #magnifier-icon {
 	right: 18px;
 }
@@ -165,6 +171,7 @@ header {
 /* Page Body */
 
 .container {
+	max-width: 1200px;
 	display: flex;
 	flex-direction: row;
 	padding-left: 165px;
@@ -224,6 +231,7 @@ aside {
 	text-decoration: none;
 	display: block;
 }
+
 .main-link:hover {
 	text-decoration: underline;
 }
@@ -305,12 +313,15 @@ aside {
 #gallery-img1 {
 	background-image: url(../img/turing2.jpg);
 }
+
 #gallery-img2 {
 	background-image: url(../img/turing3.jpg);
 }
+
 #gallery-img3 {
 	background-image: url(../img/turing4.jpg);
 }
+
 #gallery-img4 {
 	background-image: url(../img/turing5.jpg);
 }
@@ -372,4 +383,74 @@ aside {
 
 .about-text span {
 	font-weight: bold;
+}
+
+
+/* Bottom bar */
+footer {
+	background: #f2f2f2;
+}
+
+.bottom-bar {
+	width: 100%;
+	display: inline-block;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	padding-bottom: 12px;
+	border: 1px solid #dadce0;
+
+	padding-left: 15%;
+	box-sizing: border-box;
+}
+
+.bottom-bar span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-right: 25px;
+	font-weight: 500;
+}
+
+.bottom-bar a {
+	color: #70757A;
+	text-decoration: none;
+}
+
+#location-ball {
+	display: inline-block;
+	background: #70757A;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	margin: 0;
+}
+
+#location-div {
+	border-left: 0.01px solid lightgray;
+	height: 42px;
+	position: absolute;
+	left: 12.3%;
+	margin-right: 5px;
+
+}
+
+#bottom-location {
+	height: 56px;
+	padding-top: 12px;
+	padding-bottom: 0;
+	margin-right: 0;
+}
+
+#bottom-location span {
+	font-size: 15px;
+}
+
+#location {
+	color: #4d5156;
+	font-weight: bold;
+	margin-right: 0;
+}
+
+.bottom-link a {
+	margin-right: 0;
+	color: #1a0dab;
 }
